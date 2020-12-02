@@ -1,0 +1,77 @@
+:root {
+  --article-margin-vertical: 40px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.title {
+    width: 600px;
+    margin: auto;
+}
+
+.boxes {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(234, 234, 234);
+}
+
+article {
+    background: white;
+    box-sizing: border-box;
+    width: 600px;
+    margin-top: var(--article-margin-vertical);
+}
+
+.article-head {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+article div h2 {
+   padding-left: 10px;
+}
+
+article div p {
+    padding-top: 10px;
+    color: gray;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+hr {
+    border-top: 1px solid rgb(234, 234, 234);
+    border-bottom: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#food {
+    margin: 80px 0;
+    
+}
+
+.boxes article:last-child {
+    margin-bottom: var(--article-margin-vertical);
+}
+
+
+
+
+
+
+
